@@ -1,0 +1,8 @@
+:root {
+  --color-primary: #EAFD53;
+  --color-secondary: #9D95FF;
+}
+
+.txt-primary {
+  color: var(--color-primary) !important;
+}
