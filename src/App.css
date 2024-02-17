@@ -6,3 +6,15 @@
 .txt-primary {
   color: var(--color-primary) !important;
 }
+
+.txt-secondary {
+  color: var(--color-secondary);
+}
+
+.fs-huge {
+  font-size: 10rem;
+}
+
+.transitionText {
+  transition: all 50ms ease-in-out;
+}
