@@ -3,13 +3,13 @@ import  carolinePhoto  from "../../assets/caroline-almeida-dev.png";
 
 function About() {
     const parent = {
-        variantA: { width: '30%', opacity: 0 },
-        variantB: { width: '100%', opacity: 1 },
+        variantA: { transform: 'scale(0.2)' },
+        variantB: { transform: 'scale(1)',  }
     };
 
     const child = {
-        variantA: { transform: 'translateY(50%)', opacity: 0 },
-        variantB: { transform: 'translateY(0)', opacity: 1 }
+        variantA: { opacity: 0 },
+        variantB: { opacity: 1 }
     }
 
     const photo = {
@@ -25,11 +25,11 @@ function About() {
                 style={{
                     padding: '4rem',
                     background: 'var(--color-primary)',
-                    transition: 'all 800ms ease-out',
                }}
                 variants={parent}
                 initial='variantA'
                 whileInView='variantB'
+                transition={{ type: "spring", bounce: 0.25 }}
                 >
                 <div className="row" >
                     <div 
@@ -37,16 +37,8 @@ function About() {
                         >
                         <motion.h4 
                             className=""
-                            style={{
-                            transition: 'all 800ms ease-out',
-                       }}
                         variants={child}
-                        /* transition={{
-                           type: '',
-                           damping: 4,
-                           mass: 0.2,
-                           stiffness: 150, 
-                        }} */
+                        transition={{ type: "spring", bounce: 0.25 }}
                         initial='variantA'
                         whileInView='variantB'>
                             <span className="d-block fs-4 mb-4">&#123; About me &#125;</span>

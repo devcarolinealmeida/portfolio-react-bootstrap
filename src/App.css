@@ -1,6 +1,8 @@
 :root {
   --color-primary: #EAFD53;
   --color-secondary: #9D95FF;
+  --bs-orange: #FE8708;
+  --bs-green: #7EE787;
 }
 
 .txt-primary {
