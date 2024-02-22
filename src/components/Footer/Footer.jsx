@@ -24,7 +24,7 @@ function Footer() {
             Get in Touch
           </h4>
         </div>
-        <div className="row justify-content-between">
+        <div className="row justify-content-between gap-5">
           <div className="col-md-8 d-flex flex-column  flex-md-row gap-4">
             <a href={contacts.email} className="btn btn-outline-dark btn-lg">
               Email
@@ -46,7 +46,7 @@ function Footer() {
               Github
             </a>
           </div>
-          <div className="col d-flex justify-content-end align-self-end">
+          <div className="col d-flex justify-content-center justify-content-md-end align-self-end">
             <span
               className="d-block"
               style={{ cursor: "pointer" }}
@@ -56,24 +56,24 @@ function Footer() {
             </span>
           </div>
         </div>
-        <div className="row border-top border-dark pt-4">
-          <div className="col-md-8 d-flex gap-4">
+        <div className="row border-top border-dark pt-4 gap-2">
+          <div className="col-md-8 d-flex gap-4 justify-content-center justify-content-md-start">
             <span>
-              &copy;2024,
+              &copy;2024,{' '}
               <a href={contacts.linkedin} target="_blank" rel="noreferrer">
                 Caroline Almeida
               </a>
             </span>
             <span>
-              Designed by
+              Designed by{' '}
               <a href={contacts.annaBigaran} target="_blank" rel="noreferrer">
                 Anna Bigaran
               </a>
             </span>
           </div>
-          <div className="col d-flex justify-content-end">
+          <div className="col d-flex justify-content-center justify-content-md-end">
           <span>
-            See the recent update on  
+            See the recent update on {' '}
               <a href={contacts.github} target="_blank" rel="noreferrer">
                GitHub
               </a>
