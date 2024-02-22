@@ -1,5 +1,6 @@
 import {  motion } from "framer-motion";
 import  carolinePhoto  from "../../assets/caroline-almeida-dev.png";
+import { FaAngellist } from "react-icons/fa6";
 
 function About() {
     const parent = {
@@ -45,7 +46,7 @@ function About() {
                             <span className="fs-5">
                                 Oi,
                             </span>
-                            <span> icone</span>
+                            <FaAngellist />
                             <span className="d-block fs-5">
                                 I enjoy building new things, and my motivation at work is to develop, piece by piece, useful, beautiful, and functional elements.
                                 <br></br><br></br>
@@ -56,8 +57,6 @@ function About() {
                     <div className="col-6">
                         <motion.img src={carolinePhoto} alt=""
                         className="float-end"
-                        style={{
-                            transition: 'all 800ms ease-out', }} 
                             variants={photo}
                          transition={{
                            type: '',
