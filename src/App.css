@@ -6,6 +6,13 @@
   --bs-link-color-rgb: 
 }
 
+.fs-huge {
+  font-size: clamp(2.986rem, 1.1981rem + 7.3349vw, 10rem);
+}
+.fs-h1 {
+  font-size: clamp(2.986rem, 1.8073rem + 4.8356vw, 7.61rem);
+}
+
 .txt-primary {
   color: var(--color-primary) !important;
 }
@@ -14,9 +21,6 @@
   color: var(--color-secondary);
 }
 
-.fs-huge {
-  font-size: 10rem;
-}
 
 .transitionText {
   transition: all 50ms ease-in-out;
