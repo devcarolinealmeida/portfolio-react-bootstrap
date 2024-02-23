@@ -17,6 +17,7 @@ function Footer() {
     <footer
       className="footer text-dark"
       style={{ backgroundColor: "hsla(56, 94%, 94%, 1)" }}
+      id="contacts"
     >
       <div className="container-lg">
         <div className="row">

@@ -5,7 +5,7 @@ function ProjectsTitle() {
     const x = useTransform(scrollYProgress, [0, 1], [0, -300]);
 
     return (
-        <div className="container-fluid d-flex py-5 overflow-auto ">
+        <div className="container-fluid d-flex py-5 overflow-auto" id="projects">
             
             <motion.div className="flex-grow-0  flex-shrink-0 overflow-auto transitionText" style={{ x }}
             > 

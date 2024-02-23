@@ -7,7 +7,7 @@ function NavMenu() {
   return (
     <Navbar expand="lg" className="navbar-dark bg-nav">
       <Container>
-        <Navbar.Brand className='txt-primary' href="#home">&#123; caroline &#125;</Navbar.Brand>
+        <Navbar.Brand href="#home">&#123; <span className='txt-primary'>caroline</span> &#125;</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

@@ -27,6 +27,7 @@ function About() {
                     padding: '4rem',
                     background: 'var(--color-primary)',
                }}
+               id="about"
                 variants={parent}
                 initial='variantA'
                 whileInView='variantB'

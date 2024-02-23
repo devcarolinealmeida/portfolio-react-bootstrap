@@ -9,22 +9,22 @@ function Projects() {
     return (
         <>
             <ProjectsTitle/>
-            <div class="projects-container container-lg bg-black" id="projects">
-                <div class="row">
-                    <ol class="project-list">
+            <div className="projects-container container-lg bg-black">
+                <div className="row">
+                    <ol className="project-list">
                         {projectsData.map((project)=> {
                             return (
                                 <a href={project.link} target="_blank" rel="noreferrer">
-                                    <li class="list-group-item d-flex justify-content-between align-items-center gap-4 ">
-                                        <div class="me-auto">
-                                            <div class="fw-bold">{project.name}
-                                                <span class="badge rounded-pill ms-2" style={{ backgroundColor: 'var(--bg-' + project.category + ')' }}>&#123; {project.category} &#125;</span>
+                                    <li className="list-group-item d-flex justify-content-between align-items-center gap-4 ">
+                                        <div className="me-auto">
+                                            <div className="fw-bold">{project.name}
+                                                <span className="badge rounded-pill ms-2" style={{ backgroundColor: 'var(--bg-' + project.category + ')' }}>&#123; {project.category} &#125;</span>
                                             </div>
                                         </div>
-                                        <div class="_img-hover">
+                                        <div className="_img-hover">
                                             <img src={project.img} alt="" />
                                         </div>
-                                        <div class="_cta">
+                                        <div className="_cta">
                                             <IconArrow fillColor="transparent"/>
                                         </div>
                                     </li>
