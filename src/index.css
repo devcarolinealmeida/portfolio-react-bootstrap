@@ -7,7 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   --bs-body-bg: black;
   --bs-body-color: white;
-  --bs-secondary-rgb: #9D95FF;
+  --bs-body-font-family: 'pp_morisemibold', sans-serif;
 }
 
 code {

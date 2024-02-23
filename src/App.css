@@ -21,3 +21,24 @@
 .transitionText {
   transition: all 50ms ease-in-out;
 }
+
+
+@font-face {
+  font-family: 'pp_moriregular';
+  src: url('/src/assets/fonts/PPMori-Regular.otf') format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'pp_moriextralight';
+  src: url('/src/assets/fonts/PPMori-Extralight.otf') format("opentype");
+  font-weight: 300;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'pp_morisemibold';
+  src: url('/src/assets/fonts/PPMori-SemiBold.otf') format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
