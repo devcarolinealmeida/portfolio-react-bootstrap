@@ -10,10 +10,11 @@ const Typed = () => {
   })
 
   return (
-    <div className='typedSection container'>
+    <div className='typedSection container-fluid'>
         <div className='row align-items-center' style={{ minHeight:'95vh'}}>
             <h4 class="fs-h1 text-center">    
-                <span class="">I'm &#123; </span>
+                <span class="d-block">I'm </span>
+                <span class="">&#123; </span>
                 <span className='txt-primary'>{text}</span>
                 <span class=""> &#125;</span>
                 <Cursor cursorColor='#9D95FF' />

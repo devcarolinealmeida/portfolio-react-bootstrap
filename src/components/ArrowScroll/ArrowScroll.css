@@ -4,7 +4,7 @@
 
 .icon-scroll {
   position: absolute;
-  left: 50%;
+  left: 50vw;
   bottom: 15vh;
   width: calc(var(--base) * 3.5);
   height: calc(var(--base) * .8);

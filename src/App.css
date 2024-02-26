@@ -7,10 +7,10 @@
 }
 
 .fs-huge {
-  font-size: clamp(2.986rem, 1.1981rem + 7.3349vw, 10rem);
+  font-size: clamp(2.986rem, -0.0616rem + 12.503vw, 14.942rem);
 }
 .fs-h1 {
-  font-size: clamp(2.986rem, 1.8073rem + 4.8356vw, 7.61rem);
+  font-size: clamp(2.5rem, 0.1827rem + 9.5069vw, 11.591rem);
 }
 
 .txt-primary {
