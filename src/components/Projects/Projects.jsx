@@ -11,7 +11,7 @@ function Projects() {
             <ProjectsTitle/>
             <div className="projects-container container-lg bg-black">
                 <div className="row">
-                    <ol className="project-list">
+                    <ol className="project-list fs-3">
                         {projectsData.map((project)=> {
                             return (
                                 <a href={project.link} target="_blank" rel="noreferrer">

@@ -58,7 +58,7 @@ function Footer() {
           </div>
         </div>
         <div className="row border-top border-dark pt-4 gap-2">
-          <div className="col-md-8 d-flex gap-4 justify-content-center justify-content-md-start">
+          <div className="col-md-8 d-flex flex-column flex-md-row flex-wrap column-gap-4 row-gap-2 align-content-center align-content-lg-start">
             <span>
               &copy;2024,{' '}
               <a href={contacts.linkedin} target="_blank" rel="noreferrer">
