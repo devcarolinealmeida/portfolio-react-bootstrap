@@ -1,43 +1,45 @@
 :root {
-    --bg-Work: var(--bs-orange);
-    --bg-Playground: var(--color-secondary);
+  --bg-Work: var(--bs-orange);
+  --bg-Playground: var(--color-secondary);
 }
 
 .projects-container {
-    padding: 0 0 6rem;
+  padding: 0 0 6rem;
 }
 
 .project-list a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .list-group-item {
-    background-color: transparent;
-    color: white;
-    padding: 1.5rem 1rem;
-    transition: all ease-in-out 300ms;
-    position: relative;
-    border-left: none;
-    border-right: none;
+  background-color: transparent;
+  color: white;
+  padding: 1.5rem 1rem;
+  transition: all ease-in-out 300ms;
+  position: relative;
+  border-left: none;
+  border-right: none;
 }
 
-    .list-group-item ._cta {
-        position: relative;
-        width: 4rem;
-        height: 2rem;
-    }
+.list-group-item ._cta {
+  position: relative;
+  width: 4rem;
+  height: 2rem;
+}
 
-    .list-group-item ._cta svg {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-    }
+.list-group-item ._cta svg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
 
-    .list-group-item:hover {
-        background-color: hsla(56, 94%, 94%, 1);
-        color: black;
-    }
+.list-group-item:hover {
+  background-color: hsla(56, 94%, 94%, 1);
+  color: black;
+  transform: translateX(10px);
+}
 
-    .list-group-item:hover svg rect {
-        fill: black;
-    }
+.list-group-item:hover svg rect {
+  fill: black;
+}
+

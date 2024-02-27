@@ -9,17 +9,17 @@ function Projects() {
     return (
         <>
             <ProjectsTitle/>
-            <div className="projects-container container-lg bg-black">
+            <div className="projects-container container bg-black">
                 <div className="row">
                     <ol className="project-list fs-3">
                         {projectsData.map((project)=> {
                             return (
                                 <a href={project.link} target="_blank" rel="noreferrer">
                                     <li className="list-group-item d-flex justify-content-between align-items-center gap-4 ">
-                                        <div className="me-auto">
+                                        <div className="_title me-auto d-flex flex-wrap align-items-center">
                                             <div className="fw-bold">{project.name}
-                                                <span className="badge rounded-pill ms-2" style={{ backgroundColor: 'var(--bg-' + project.category + ')' }}>&#123; {project.category} &#125;</span>
                                             </div>
+                                                <span className="fs-6 badge rounded-pill ms-2" style={{ backgroundColor: 'var(--bg-' + project.category + ')' }}>&#123; {project.category} &#125;</span>
                                         </div>
                                         <div className="_img-hover">
                                             <img src={project.img} alt="" />
