@@ -19,7 +19,7 @@ function Projects() {
                                         <div className="_title me-auto d-flex flex-wrap align-items-center">
                                             <div className="fw-bold">{project.name}
                                             </div>
-                                                <span className="fs-6 badge rounded-pill ms-2" style={{ backgroundColor: 'var(--bg-' + project.category + ')' }}>&#123; {project.category} &#125;</span>
+                                                <span className="badge rounded-pill ms-2" style={{ backgroundColor: 'var(--bg-' + project.category + ')' }}>&#123; {project.category} &#125;</span>
                                         </div>
                                         <div className="_img-hover">
                                             <img src={project.img} alt="" />

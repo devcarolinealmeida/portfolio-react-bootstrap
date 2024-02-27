@@ -43,3 +43,7 @@
   fill: black;
 }
 
+.badge {
+  font-size: clamp(0.6rem, 0.498rem + 0.4183vw, 1rem)!important;
+}
+
