@@ -2,25 +2,33 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import './NavMenu.css';
-/* import Hamburger from 'hamburger-react'; */
+import Hamburger from 'hamburger-react';
 import { useState } from 'react';
 
 function NavMenu() {
-  const [isOpen, setOpen] = useState(false)
+  const [isOpen, setOpen] = useState(false);
+
+  const links = [
+    /* { url:'/', title: 'Home' }, */
+    { url: '#projects', title: 'Projects' },
+    { url: '#about', title: 'About' },
+    { url: '#contacts', title: 'Contacts' }
+  ]
 
   return (
-    <Navbar expand="lg" className="navbar-dark bg-nav">
+    <Navbar expand="lg" className="navbar-dark" style={{backgroundColor:'black'}}>
       <Container>
         <Navbar.Brand href="#home">&#123; <span className='txt-primary'>caroline</span> &#125;</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        {/* <Hamburger className="navbar-toggler" toggled={isOpen} toggle={setOpen} /> */}
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link href="#projects">Projects</Nav.Link>
-            <Nav.Link href="#about">About</Nav.Link>
-            <Nav.Link href="#contacts">Contacts</Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
+        <Hamburger className={!isOpen ? 'navbar-toggler collapsed' : 'navbar-toggler'}  toggled={isOpen} toggle={setOpen} />
+          <div id="basic-navbar-nav" className={isOpen ? 'navbar-collapse collapse show' : 'navbar-collapse collapse'}>
+            <Nav className="">
+              {links.map((link) => {
+                return (
+                  <Nav.Link href={link.url}>{link.title}</Nav.Link>
+                )
+              })}
+            </Nav>
+          </div>
       </Container>
     </Navbar>
   );

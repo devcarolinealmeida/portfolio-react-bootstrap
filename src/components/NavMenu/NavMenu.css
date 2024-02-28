@@ -1,3 +1,5 @@
-.bg-nav {
-    background-color: black;
+@media (min-width:992px) {
+    .hamburger-react {
+        display: none;
+    }
 }
