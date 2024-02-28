@@ -21,7 +21,7 @@ function About() {
             <motion.div 
                 className="min-vh-100 d-flex align-items-center" 
                 style={{
-                    padding: '4rem',
+                    padding: 'clamp(1rem, 7vw, 4rem)',
                     background: 'var(--color-primary)',
                }}
                id="about"
