@@ -3,11 +3,13 @@
 }
 
 .icon-scroll {
+  --width: calc(var(--base) * 3.5);
+  --height: calc(var(--base) * .8);
+  width: var(--width);
+  height: var(--height);
   position: absolute;
-  left: 50vw;
+  left: calc(50vw - calc(var(--width) / 2));
   bottom: 15vh;
-  width: calc(var(--base) * 3.5);
-  height: calc(var(--base) * .8);
   opacity: 0;
   transform: scale(0.3);
   animation: move-icon-scroll 3s ease-out infinite;

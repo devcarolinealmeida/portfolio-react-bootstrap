@@ -11,7 +11,7 @@ const Typed = () => {
 
   return (
     <div className='typedSection container-fluid'>
-        <div className='row align-items-center' style={{ minHeight:'95vh'}}>
+        <div className='row align-items-center' style={{ minHeight:'90vh'}}>
             <h4 class="fs-h1 text-center">    
                 <span class="d-block">I'm </span>
                 <span class="">&#123; </span>
