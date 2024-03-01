@@ -18,10 +18,10 @@ function NavMenu() {
   return (
     <Navbar expand="lg" className="navbar-dark" style={{backgroundColor:'black'}}>
       <Container>
-        <Navbar.Brand href="#home">&#123; <span className='txt-primary'>caroline</span> &#125;</Navbar.Brand>
+        <Navbar.Brand href="#home">&#123; <span className='txt-primary fs-4'>caroline</span> &#125;</Navbar.Brand>
         <Hamburger className={!isOpen ? 'navbar-toggler collapsed' : 'navbar-toggler'}  toggled={isOpen} toggle={setOpen} />
           <div id="basic-navbar-nav" className={isOpen ? 'navbar-collapse collapse show' : 'navbar-collapse collapse'}>
-            <Nav className="">
+            <Nav className="fs-4">
               {links.map((link) => {
                 return (
                   <Nav.Link href={link.url}>{link.title}</Nav.Link>
