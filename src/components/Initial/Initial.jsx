@@ -1,15 +1,15 @@
 import React from "react";
 import Typed from "../Typed/Typed";
 import ScrollWrap from "../ScrollWrap/ScrollWrap";
-import { PiCoffee } from "react-icons/pi"
+import { PiCoffee } from "react-icons/pi";
+import './Initial.css';
 
 export default function Initial() {
   return (
     <div
-      className="container-fluid"
       style={{ background: "var(--darkGreen)" }}
     >
-      <div className="container d-flex flex-column justify-content-between min-vh-100 py-4">
+      <div className="container d-flex flex-column justify-content-md-between  min-vh-100 py-4">
         <div className="row justify-content-between align-items-lg-center">
           <div className="col col-lg-3 fw-bold" style={{fontSize: 'clamp(0.9375rem, 0.826rem + 0.4575vw, 1.375rem)'}}>
             &#123; <span className="txt-primary">Caroline Almeida</span> &#125;
@@ -40,7 +40,7 @@ export default function Initial() {
         </div>
         <div className="row justify-content-md-end">
           <div className="col-lg-6 align-self-end">
-          <p className="lh-13" style={{fontSize: 'clamp(1rem, 0.6814rem + 1.3072vw, 2.25rem)'}}>I'm Caroline, Front End Developer dedicated to crafting immersive digital experiences. Currently living in Turin, Italy.</p>
+          <p className="lh-13" style={{fontSize: 'clamp(1.375rem, 1.152rem + 0.915vw, 2.25rem)', lineHeight: '130%'}}>I'm Caroline, Front End Developer dedicated to crafting immersive digital experiences. Currently living in Turin, Italy.</p>
           </div>
         </div>
         <div className="row">
