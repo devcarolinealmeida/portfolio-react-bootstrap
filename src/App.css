@@ -1,16 +1,21 @@
 :root {
-  --color-primary: #EAFD53;
+  --color-primary: hsla(148, 94%, 50%, 1);
   --color-secondary: #9D95FF;
   --bs-orange: #FE8708;
   --bs-green: #7EE787;
-  --bs-link-color-rgb: 
+  --darkGreen: hsla(185, 94%, 13%, 1);
 }
 
 .fs-huge {
   font-size: clamp(2.986rem, -0.0616rem + 12.503vw, 14.942rem);
 }
 .fs-h1 {
-  font-size: clamp(2.5rem, 0.1827rem + 9.5069vw, 11.591rem);
+ font-size: clamp(3.75rem, 2.7941rem + 3.9216vw, 7.5rem);
+  font-weight: 600;
+}
+
+.fs-sm {
+  font-size: clamp(0.875rem, 0.7475rem + 0.5229vw, 1.375rem);
 }
 
 .txt-primary {
@@ -21,11 +26,16 @@
   color: var(--color-secondary);
 }
 
+.lh-13 {
+  line-height: 130%;;
+}
+.lh-80 {
+  line-height: 80%;
+}
 
 .transitionText {
   transition: all 50ms ease-in-out;
 }
-
 
 @font-face {
   font-family: 'pp_moriregular';
@@ -34,14 +44,14 @@
   font-style: normal;
 }
 @font-face {
-  font-family: 'pp_moriextralight';
+  font-family: 'pp_moriregular';
   src: url('/src/assets/fonts/PPMori-Extralight.otf') format("opentype");
   font-weight: 300;
   font-style: normal;
 
 }
 @font-face {
-  font-family: 'pp_morisemibold';
+  font-family: 'pp_moriregular';
   src: url('/src/assets/fonts/PPMori-SemiBold.otf') format("opentype");
   font-weight: 600;
   font-style: normal;

@@ -1,28 +1,21 @@
-import { useTypewriter, Cursor } from 'react-simple-typewriter'
-import ArrowScroll from '../ArrowScroll/ArrowScroll';
+import { useTypewriter, Cursor } from "react-simple-typewriter";
 
-const Typed = () => {
+const Typed = (props) => {
   const [text] = useTypewriter({
-    words: ['caroline', 'dev', 'front-end', 'freelance'],
+    words: ["Caroline", "Freelance", "Brazilian", "Coding"],
     typeSpeed: 100,
     backSpeed: 80,
     loop: true,
-  })
+  });
 
   return (
-    <div className='typedSection container-fluid'>
-        <div className='row align-items-center' style={{ minHeight:'95vh'}}>
-            <h4 class="fs-h1 text-center">    
-                <span class="d-block">I'm </span>
-                <span class="">&#123; </span>
-                <span className='txt-primary'>{text}</span>
-                <span class=""> &#125;</span>
-                <Cursor cursorColor='#9D95FF' />
-            </h4>
-          <ArrowScroll/>
-        </div>
-    </div>
-  )
-}
+    <h4 className={props.fs}>
+      <span className="">&#123; </span>
+      <span style={props.styles}>{text}</span>
+      <span className=""> &#125;</span>
+      <Cursor cursorColor="var(--color-primary)" />
+    </h4>
+  );
+};
 
 export default Typed;

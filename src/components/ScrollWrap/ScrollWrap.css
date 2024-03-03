@@ -1,0 +1,46 @@
+._iconScroll {
+    position: relative;
+    padding-left: 2rem;
+}
+
+    ._iconScroll::before {
+        position: absolute;
+        content: '';
+        width: 1.5rem;
+        height: 2.4rem;
+        border: 2px solid var(--color-primary);
+        border-radius: 5rem;
+        left: 0;
+        top: -25%;
+    }
+
+    ._iconScroll::after {
+        position: absolute;
+        content: '';
+        background-color: var(--color-primary);
+        border-radius: 5rem;
+        width: .15rem;
+        height: .7rem;
+        top: 1%;
+        left: 9.5%;
+        animation: move-icon-scroll 2s ease-in-out infinite;
+    }
+
+
+@keyframes move-icon-scroll {
+    0% {
+     opacity: 0.3;
+     transform: translateY(0);
+     height: 0.2rem;
+       }
+    50% {
+     opacity: 1;
+     transform: translateY(80%);
+     height: .7rem;
+    }
+    100% {
+        opacity: 0.3;
+        transform: translateY(0);
+        height: 0.2rem;
+          }
+   }

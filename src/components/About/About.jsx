@@ -1,11 +1,19 @@
-import {  motion } from "framer-motion";
+import {  motion, useScroll } from "framer-motion";
 import  carolinePhoto  from "../../assets/caroline-almeida-dev.png";
 import { FaAngellist } from "react-icons/fa6";
+import { useRef } from "react";
 
 function About() {
+
+    const ref = useRef(null);
+    const { scrollYProgress } = useScroll({
+        target: ref,
+        offset: ["-200vh", "0vh"]}
+    );
+    
     const parent = {
-        variantA: { transform: 'scale(0.2)' },
-        variantB: { transform: 'scale(1)',  }
+        variantA: { opacity: 0 },
+        variantB: { opacity: 1  }
     };
 
     const photo = {
@@ -18,16 +26,16 @@ function About() {
 
     return (
        <>
-            <motion.div 
+            <motion.div ref={ref}
                 className="min-vh-100 d-flex align-items-center" 
-                style={{
+                style={{ scale: scrollYProgress,
                     padding: 'clamp(1rem, 7vw, 4rem)',
                     background: 'var(--color-primary)',
                }}
                id="about"
-                variants={parent}
+                /* variants={parent}
                 initial='variantA'
-                whileInView='variantB'
+                whileInView='variantB' */
                 transition={transSpring}
                 >
                 <div className="container-lg text-dark">
@@ -39,7 +47,10 @@ function About() {
                             <motion.h4 
                                 className="d-flex flex-column  gap-4"
                             variants={parent}
-                            transition={transSpring}
+                            /* transition={transSpring} */
+                            transition={{
+                                ease: "backIn",
+                                duration: 1.2}}
                             initial='variantA'
                             whileInView='variantB'>
                                 <span className="d-block fs-2 mb-4">&#123; About me &#125;</span>
@@ -65,7 +76,10 @@ function About() {
                             style={ {width:'clamp(14rem, 30vw, 25rem)'} }
                             className="float-end"
                                 variants={parent}
-                                transition={transSpring}
+                                /* transition={transSpring} */
+                                transition={{
+                                    ease: "backIn",
+                                    duration: 1.2}}
                             
                             initial='variantA'
                             whileInView='variantB'

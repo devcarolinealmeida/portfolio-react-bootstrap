@@ -6,11 +6,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   --bs-body-bg: black;
-  --bs-body-color: white;
-  --bs-body-font-family: 'pp_morisemibold', sans-serif;
+  --bs-body-color: hsla(56, 94%, 94%, 1);
+  --bs-body-font-family: 'pp_moriregular', sans-serif;
+  --bs-body-font-weight: 300;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
