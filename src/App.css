@@ -3,6 +3,7 @@
   --color-secondary: #9D95FF;
   --bs-orange: #FE8708;
   --darkGreen: hsla(185, 98%, 11%, 1);
+  --bs-navbar-color: white;
 }
 
 .fs-huge {
@@ -16,7 +17,6 @@
 
 .fs-brand {
   font-size: clamp(0.9375rem, 0.826rem + 0.4575vw, 1.375rem);
-  font-weight: 600;
 }
 
 .fs-sm {

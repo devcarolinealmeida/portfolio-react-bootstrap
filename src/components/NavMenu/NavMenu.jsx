@@ -12,7 +12,7 @@ function NavMenu() {
     /* { url:'/', title: 'Home' }, */
     { url: "#works", title: "Works" },
     { url: "#about", title: "About" },
-    { url: "#contacts", title: "Contacts" },
+    { url: "#contacts", title: "Get in touch" },
   ];
 
   return (
@@ -20,15 +20,19 @@ function NavMenu() {
       expand="lg"
       className="navbar-dark"
       sticky="top"
-      style={{ backgroundColor: "black" }}
+      style={{
+        backgroundColor: "black",
+        paddingTop: "1rem",
+      }}
     >
       <Container>
-        <Navbar.Brand href="#home"
-        className="fs-brand"
-        >
+        <Navbar.Brand href="#home" className="fs-brand fw-bold">
           &#123;
           <span className="txt-primary"> Caroline Almeida</span> &#125;
         </Navbar.Brand>
+        <Navbar.Text className="circleBefore text-white">
+          Front End Developer
+        </Navbar.Text>
         <Hamburger
           className={!isOpen ? "navbar-toggler collapsed" : "navbar-toggler"}
           toggled={isOpen}
@@ -39,10 +43,10 @@ function NavMenu() {
           className={
             isOpen
               ? "navbar-collapse collapse show"
-              : "navbar-collapse collapse"
+              : "navbar-collapse collapse justify-content-end"
           }
         >
-          <Nav className="fs-4">
+          <Nav className="fs-brand gap-3">
             {links.map((link) => {
               return <Nav.Link href={link.url}>{link.title}</Nav.Link>;
             })}
