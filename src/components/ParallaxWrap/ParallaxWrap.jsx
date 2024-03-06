@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import Projects from "../Projects/Projects";
+import Works from "../Works/Works";
 
 import { motion, useScroll, useTransform } from "framer-motion";
 import "./ParallaxWrap.css";
@@ -51,7 +51,7 @@ export default function ParallaxWrap() {
           width: '100%',
           minHeight: '100%'}}>
           <NavMenu/>
-          <Projects/>
+          <Works/>
         </motion.div>
       </motion.div>
       

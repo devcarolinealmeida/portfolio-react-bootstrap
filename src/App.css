@@ -14,6 +14,11 @@
   font-weight: 600;
 }
 
+.fs-brand {
+  font-size: clamp(0.9375rem, 0.826rem + 0.4575vw, 1.375rem);
+  font-weight: 600;
+}
+
 .fs-sm {
   font-size: clamp(0.875rem, 0.7475rem + 0.5229vw, 1.375rem);
 }

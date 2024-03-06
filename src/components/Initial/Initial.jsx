@@ -18,10 +18,8 @@ export default function Initial() {
       <div className="container d-flex flex-column justify-content-md-between  min-vh-100 py-4">
         <div className="row justify-content-between align-items-lg-center">
           <div
-            className="col col-lg-3 fw-bold"
-            style={{
-              fontSize: "clamp(0.9375rem, 0.826rem + 0.4575vw, 1.375rem)",
-            }}
+            className="col col-lg-3 fw-bold fs-brand"
+            
           >
             &#123; <span className="txt-primary">Caroline Almeida</span> &#125;
           </div>

@@ -3,12 +3,8 @@
   --bg-Playground: var(--color-secondary);
 }
 
-.projects-container {
+.works-container {
   padding: 0 0 6rem;
-}
-
-.project-list a {
-  text-decoration: none;
 }
 
 .list-group-item {

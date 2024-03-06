@@ -1,6 +1,6 @@
 import IconArrow from '../IconArrow/IconArrow'
 
-function Project(props) {
+function Work(props) {
   return (
     <div href={props.link} target="_blank" rel="noreferrer">
         <div className="list-group-item d-flex justify-content-between align-items-center gap-4 ">
@@ -21,4 +21,4 @@ function Project(props) {
   );
 }
 
-export default Project;
+export default Work;

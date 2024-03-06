@@ -5,7 +5,7 @@ function TitleScroll(props) {
     const x = useTransform(scrollYProgress, [0, 1], [0, -300]);
 
     return (
-        <div className="container-fluid d-flex pb-5 overflow-auto" style={{ paddingTop:'6rem'}} id="projects">
+        <div className="container-fluid d-flex pb-5 overflow-auto" style={{ paddingTop:'6rem'}}>
             
             <motion.div className="flex-grow-0  flex-shrink-0 overflow-auto transitionText" style={{ x }}
             > 

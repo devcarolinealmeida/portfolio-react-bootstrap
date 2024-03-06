@@ -6,7 +6,7 @@ import fitClubScreen from '../assets/fit-club-screen.png';
 import taskListScreen from '../assets/task-list-screen.png';
 import textSpeechScreen from '../assets/textSpeech-screen.png';
 
-export const projectsData = [
+export const worksData = [
     {
         link: 'https://www.museorisorgimentotorino.it/',
         name:'Museo Risorgimento - Landing Page',
