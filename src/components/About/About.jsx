@@ -25,12 +25,22 @@ function About() {
 
 
     return (
-       <>
+       <div 
+       style={{
+        position: 'relative',
+        minHeight:'100vh',
+        background: 'black'
+        }}>
             <motion.div ref={ref}
-                className="min-vh-100 d-flex align-items-center" 
-                style={{ scale: scrollYProgress,
+                className="d-flex align-items-center" 
+                style={{ 
+                    height:'100%',
+                    width: '100%',
+                    scale: scrollYProgress,
                     padding: 'clamp(1rem, 7vw, 4rem)',
                     background: 'var(--color-primary)',
+                    position: 'absolute',
+                    top: '0',
                }}
                id="about"
                 /* variants={parent}
@@ -88,7 +98,7 @@ function About() {
                     </div>
                 </div>
             </motion.div>
-        </>
+        </div>
     )
 }
 

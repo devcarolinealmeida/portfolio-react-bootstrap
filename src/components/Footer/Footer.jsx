@@ -16,7 +16,11 @@ function Footer() {
   return (
     <footer
       className="footer text-dark"
-      style={{ backgroundColor: "hsla(56, 94%, 94%, 1)" }}
+      style={{
+        position: "relative",
+        bottom: "0",
+        backgroundColor: "hsla(56, 94%, 94%, 1)",
+      }}
       id="contacts"
     >
       <div className="container-lg">
@@ -60,23 +64,23 @@ function Footer() {
         <div className="row border-top border-dark pt-4 gap-2">
           <div className="col-md-8 d-flex flex-column flex-md-row flex-wrap column-gap-4 row-gap-2 align-content-center align-content-lg-start">
             <span>
-              &copy;2024,{' '}
+              &copy;2024,{" "}
               <a href={contacts.linkedin} target="_blank" rel="noreferrer">
                 Caroline Almeida
               </a>
             </span>
             <span>
-              Designed by{' '}
+              Designed by{" "}
               <a href={contacts.annaBigaran} target="_blank" rel="noreferrer">
                 Anna Bigaran
               </a>
             </span>
           </div>
           <div className="col d-flex justify-content-center justify-content-md-end">
-          <span>
-            See the recent update on {' '}
+            <span>
+              See the recent update on{" "}
               <a href={contacts.github} target="_blank" rel="noreferrer">
-               GitHub
+                GitHub
               </a>
             </span>
           </div>

@@ -9,7 +9,7 @@ function TitleScroll(props) {
             
             <motion.div className="flex-grow-0  flex-shrink-0 overflow-auto transitionText" style={{ x }}
             > 
-            <h4 className="fs-huge">&#123; {props.title} &#125; &#123; {props.title} &#125; &#123; Projects &#125; &#123;</h4>
+            <h4 className="fs-huge txt-primary">&#123; {props.title} &#125; &#123; {props.title} &#125; &#123; Projects &#125; &#123;</h4>
             </motion.div>
             
         </div>

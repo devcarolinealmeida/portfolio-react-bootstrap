@@ -6,13 +6,15 @@ import About from './components/About/About';
 import Footer from './components/Footer/Footer';
 import Projects from './components/Projects/Projects';
 import Initial from './components/Initial/Initial';
+import ParallaxWrap from './components/ParallaxWrap/ParallaxWrap';
 
 function App() {
   return (
     <div className="App">
       <Initial/>
-      <NavMenu/>
-      <Projects/>
+      <ParallaxWrap/>
+      {/* <NavMenu/>
+      <Projects/> */}
       <About/>
       <Footer/>
     </div>

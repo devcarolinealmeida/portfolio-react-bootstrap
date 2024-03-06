@@ -8,7 +8,7 @@ function Projects() {
 
     return (
         <>
-            <TitleScroll title='Projects'/>
+            <TitleScroll title='Works'/>
             <div className="projects-container container bg-black">
                 <div className="row">
                     {projectsData.map((project)=> {
