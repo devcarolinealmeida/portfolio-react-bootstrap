@@ -7,6 +7,7 @@ import Initial from './components/Initial/Initial';
 import ParallaxWrap from './components/ParallaxWrap/ParallaxWrap';
 import NavMenu from './components/NavMenu/NavMenu';
 import Works from './components/Works/Works';
+import OtherProjects from './components/OthersProjects/OtherProjects';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <NavMenu/>
       <Works/>
       {/* <ParallaxWrap/> */}
+      <OtherProjects/>
       <About/>
       <Footer/>
     </div>

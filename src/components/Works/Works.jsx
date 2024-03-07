@@ -7,7 +7,7 @@ import Work from "../Work/Work";
 function Works() {
 
     return (
-        <div id="works">
+        <div id="works" className="_works position-relative bg-black">
             <TitleScroll title='Works'/>
             <div className="works-container container bg-black">
                 <div className="row">
