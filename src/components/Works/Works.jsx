@@ -13,7 +13,7 @@ function Works() {
                 <div className="row">
                     {worksData.map((work)=> {
                         return (
-                            <Work link={work.link} title={work.name} category={work.category}/>
+                            <Work link={work.link} title={work.name} date={work.date} img={work.img}/>
                         );
                     })}
                 </div>

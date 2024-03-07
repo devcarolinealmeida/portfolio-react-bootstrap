@@ -22,7 +22,7 @@ export default function ParallaxWrap() {
     style={{
       border: '1px solid yellow',
       position:'relative', 
-      minHeight:'77rem'
+      minHeight:'120rem'
       }}>
       <motion.div /* className={"_parallaxWrapper"}  */
       className="_motion-div-1"

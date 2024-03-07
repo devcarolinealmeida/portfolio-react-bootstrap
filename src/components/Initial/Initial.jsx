@@ -7,6 +7,7 @@ import "./Initial.css";
 export default function Initial() {
   return (
     <div
+    className="initialContainer"
       style={{
         background: "var(--darkGreen)",
         position: "sticky",

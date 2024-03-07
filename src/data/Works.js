@@ -1,4 +1,4 @@
-import  museuScreen  from '../assets/museu-rissorgimento-screen.png';
+import  museuScreen  from '../assets/museoGif.gif';
 import assistScreen from '../assets/assist-screen.png';
 import aisScreen from '../assets/aisFvg-screen.png';
 import rockPaperScissorsScreen from '../assets/rock-paper-scissors-screen.png';
@@ -9,29 +9,37 @@ import textSpeechScreen from '../assets/textSpeech-screen.png';
 export const worksData = [
     {
         link: 'https://www.museorisorgimentotorino.it/',
-        name:'Museo Risorgimento - Landing Page',
+        name:'Museo Risorgimento - Gateway to History with a new Landing Page',
         category: 'Work',
+        date: 'jan.2024',
         img: museuScreen,
+        colorBg: 'hsla(56, 94%, 94%, 1)'
     },
     {
         link: 'https://isi.it/en/home',
-        name:'ISI Foundation - Website',
+        name:'ISI Foundation - Pioneering Data-Driven Science for Social Impact',
         category: 'Work',
+        date: 'mar.2024',
         img: {},
+        colorBg: 'hsla(0, 0%, 0%, 1)',
     },
     {
         link: 'https://assist-si.com/',
-        name:'Assist - Website',
+        name:'Assist - Streamlining Credit Collection with Appointment Booking',
         category: 'Work',
+        date: 'nov.2023',
         img: assistScreen,
+        colorBg: 'var(--color-primary)'
     },
     {
         link: 'https://aisfvg.it/',
-        name:'AIS Friuli Venezia Giulia',
+        name:'AIS FVG - Revealing the World of Wine with Sommelier Courses',
         category: 'Work',
+        date: 'apr.2023',
         img: aisScreen,
+        colorBg: 'hsla(56, 94%, 94%, 1)'
     },
-    {
+    /* {
         link: 'https://rock-paper-scissors-swart-gamma.vercel.app/',
         name:'Rock Paper Scissors Game',
         category: 'Playground',
@@ -54,5 +62,5 @@ export const worksData = [
         name:'Text to Speech',
         category: 'Playground',
         img: textSpeechScreen,
-    },
+    }, */
 ]

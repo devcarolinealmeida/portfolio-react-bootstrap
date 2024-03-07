@@ -1,22 +1,27 @@
-import IconArrow from '../IconArrow/IconArrow'
+import IconArrow from "../IconArrow/IconArrow";
 
 function Work(props) {
   return (
     <div href={props.link} target="_blank" rel="noreferrer">
-        <div className="list-group-item d-flex justify-content-between align-items-center gap-4 ">
-          <div className="_title me-auto d-flex flex-wrap align-items-center">
-            <h2 className="fs-3 fw-bold mb-0">{props.title}</h2>
-            <span
-              className="badge rounded-pill ms-2"
-              style={{ backgroundColor: "var(--bg-" + props.category + ")" }}
-            >
-              &#123; {props.category} &#125;
-            </span>
+      <div className="list-item d-flex">
+        <div className="workFigure"
+       >
+          <img 
+          className="workImg"
+          src={props.img} alt="" />
+        </div>
+        <div className="workInfo d-flex flex-column justify-content-between">
+          <div className="_title">
+            <h4>{props.title}</h4>
           </div>
-          <div className="_cta">
-            <IconArrow fillColor="transparent" />
+          <div className="d-flex justify-content-between align-items-end w-100">
+            <span>{props.date}</span>
+            <div className="_cta">
+              <IconArrow fillColor="hsla(56, 94%, 94%, 1)"/>
+            </div>
           </div>
         </div>
+      </div>
     </div>
   );
 }

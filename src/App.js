@@ -5,12 +5,16 @@ import About from './components/About/About';
 import Footer from './components/Footer/Footer';
 import Initial from './components/Initial/Initial';
 import ParallaxWrap from './components/ParallaxWrap/ParallaxWrap';
+import NavMenu from './components/NavMenu/NavMenu';
+import Works from './components/Works/Works';
 
 function App() {
   return (
     <div className="App">
       <Initial/>
-      <ParallaxWrap/>
+      <NavMenu/>
+      <Works/>
+      {/* <ParallaxWrap/> */}
       <About/>
       <Footer/>
     </div>

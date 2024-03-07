@@ -38,7 +38,7 @@ function About() {
                     width: '100%',
                     scale: scrollYProgress,
                     padding: 'clamp(1rem, 7vw, 4rem)',
-                    background: 'var(--color-primary)',
+                    background: 'var(--darkGreen)',
                     position: 'absolute',
                     top: '0',
                }}
@@ -48,7 +48,7 @@ function About() {
                 whileInView='variantB' */
                 transition={transSpring}
                 >
-                <div className="container-lg text-dark">
+                <div className="container-lg">
 
                     <div className="row row-gap-5">
                         <div 

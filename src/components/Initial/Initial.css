@@ -1,12 +1,12 @@
-.container .row:nth-child(2) {
+.initialContainer .container .row:nth-child(2) {
     padding: 6rem 0;
 }
-.container .row:last-child {
+.initialContainer .container .row:last-child {
     padding: 4rem 0 2rem;
 }
 
 @media screen and (min-width:768px) {
-    .container .row:first-child {
+    .initialContainer .container .row:first-child {
         border-bottom: .5px solid hsla(56, 94%, 94%, 1);
         padding-bottom: 1rem;
     }
