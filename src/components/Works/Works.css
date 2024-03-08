@@ -48,9 +48,11 @@
   border-top: 0.5px solid var(--darkGreen);
 }
 
-.list-item h4 {
+.list-item a {
   font-size: clamp(1.25rem, 0.9951rem + 1.0458vw, 2.25rem);
-  margin-bottom: 0;
+  color: var(--bs-body-color);
+  text-decoration: none;
+  font-weight: 500;
 }
 
 .list-item ._cta {

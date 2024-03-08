@@ -12,7 +12,7 @@ function Work(props) {
         </div>
         <div className="workInfo d-flex flex-column justify-content-between">
           <div className="_title">
-            <h4>{props.title}</h4>
+            <a href={props.link} target="_blank" rel="noreferrer" className="stretched-link">{props.title}</a>
           </div>
           <div className="d-flex justify-content-between align-items-end w-100">
             <span>{props.date}</span>
