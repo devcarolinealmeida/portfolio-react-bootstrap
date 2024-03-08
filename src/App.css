@@ -27,9 +27,15 @@
   color: var(--color-primary) !important;
 }
 
-.txt-secondary {
-  color: var(--color-secondary);
+.figSvg {
+  position: relative;
 }
+
+  .figSvg svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
 
 .lh-80 {
   line-height: 80%;

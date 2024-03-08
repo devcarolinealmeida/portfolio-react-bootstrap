@@ -6,7 +6,7 @@ import IconArrow from "../IconArrow/IconArrow";
 export default function CardProject(props) {
     
   return (
-    <div className="cardProject col">
+    <div className="cardProject col d-flex flex-column justify-content-between">
       <div className="cardTop d-flex justify-content-between">
         <div className="figSvg" style={{width:'4rem', height:'4rem', color:'hsla(56, 94%, 94%, 1)'}}>
             <FaRegFolder />

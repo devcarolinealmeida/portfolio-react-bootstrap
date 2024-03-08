@@ -18,14 +18,14 @@ export const otherProjects = [
         link: 'https://task-list-react-two.vercel.app/',
         gitHub: 'https://github.com/devcarolinealmeida/task-list-react',
         name:'Task list React',
-        description: 'Read a list of tasks, mark any task as completed or return as incomplete; Delete any task, using the mouse or keyboard.',
+        description: 'Mark any task as completed or return as incomplete; Delete any task, using the mouse or keyboard.',
         tecnologie: ['CSS3', 'React']
     },
     {
         link: 'https://dev-caroline-text-to-speech.netlify.app/',
         gitHub: 'https://github.com/devcarolinealmeida/text-to-speech',
         name:'Text to Speech',
-        description: 'An application that uses the Web Speech API to assist people with language difficulties in expressing themselves.',
+        description: 'An application to assist people with language difficulties in expressing themselves.',
         tecnologie: ['JavaScript','Web Speech API' ]
     },
 ]

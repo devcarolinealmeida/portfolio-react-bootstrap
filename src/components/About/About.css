@@ -1,0 +1,7 @@
+._about .figSvg {
+    width: 5.5rem;
+    height: 5.5rem;
+    transition: var(--transition-card);
+    margin-left: 1rem;
+}
+  

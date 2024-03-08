@@ -44,7 +44,7 @@
     }
 
 .scrollWrap > div > .cardProject .cardTop {
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
     transition: var(--transition-card);
 }
     .scrollWrap > div > .cardProject .cardTop h4 {
@@ -57,21 +57,17 @@
 
     .scrollWrap > div > .cardProject .cardInfo h4 {
         font-size: clamp(1.375rem, 1.2157rem + 0.6536vw, 2rem);
-        min-height: 5rem;
+        min-height: 6rem;
         font-weight: 600;
     }
 
 .scrollWrap > div > .cardProject .figSvg {
-    position: relative;
     width: 1.875rem;
     height: 1.875rem;
-    transition: var(--transition-list);
+    transition: var(--transition-card);
 }
   
   .scrollWrap > div > .cardProject .figSvg svg {
-        position: absolute;
-        width: 100%;
-        height: 100%;
         transition: var(--transition-card);
     }
 
