@@ -26,6 +26,6 @@ export const otherProjects = [
         gitHub: 'https://github.com/devcarolinealmeida/text-to-speech',
         name:'Text to Speech',
         description: 'An application to assist people with language difficulties in expressing themselves.',
-        tecnologie: ['JavaScript','Web Speech API' ]
+        tecnologie: ['JS','Web Speech API' ]
     },
 ]

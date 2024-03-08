@@ -4,6 +4,7 @@ import CardProject from "../CardProject/CardProject";
 import "./OtherProjects.css";
 
 function OtherProjects() {
+
   return (
     <div className="_otherProjects position-relative bg-black">
       <div className="container">

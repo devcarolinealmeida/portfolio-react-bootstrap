@@ -12,7 +12,6 @@ export default function About() {
   });
 
   const rotateIcon = useTransform(scrollYProgress, [0, 1], ["0deg", "-360deg"]);
-
   const transScroll = ' type: "inertia", velocity: 50' ;
 
   return (
@@ -42,7 +41,9 @@ export default function About() {
                   Get to
                   <span className="figSvg">
                     <motion.svg
-                      style={{ rotate: rotateIcon, transition: transScroll }}
+                      style={{ 
+                        rotate: rotateIcon, 
+                        transition: transScroll }}
                       width="125"
                       height="125"
                       viewBox="0 0 125 125"
