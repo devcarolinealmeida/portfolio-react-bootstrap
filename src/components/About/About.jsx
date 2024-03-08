@@ -38,7 +38,7 @@ export default function About() {
                   marginBottom: "3rem",
                 }}
               >
-                <span className="d-flex align-items-end">
+                <span className="d-flex align-items-center">
                   Get to
                   <span className="figSvg">
                     <motion.svg

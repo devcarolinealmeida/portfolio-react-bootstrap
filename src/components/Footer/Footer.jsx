@@ -7,6 +7,7 @@ function Footer() {
     linkedin: "https://www.linkedin.com/in/devcaroline/",
     github: "https://github.com/devcarolinealmeida",
     annaBigaran: "https://annabigaran.com/",
+    resume: 'https://read.cv/carolinealmeida'
   };
 
   const handleScrollToTop = () => {
@@ -15,30 +16,32 @@ function Footer() {
 
   return (
     <footer
-      className="footer text-dark"
-      style={{
-        position: "relative",
-        bottom: "0",
-        backgroundColor: "hsla(56, 94%, 94%, 1)",
-      }}
+      className="footer bg-black position-relative"
       id="contacts"
     >
       <div className="container-lg">
         <div className="row">
-          <h4 className="fs-1 text-black text-center text-md-start mb-5">
-            Get in Touch
+          <h4
+            className="text-center text-md-start mb-5"
+            style={{
+              fontSize: "clamp(1.25rem, 0.2941rem + 3.9216vw, 5rem)",
+              fontWeight: "600",
+              lineHeight:'100%'
+            }}
+          >
+            Let's build<br></br>together
           </h4>
         </div>
         <div className="row justify-content-between gap-5">
           <div className="col-md-8 d-flex flex-column  flex-md-row gap-4">
-            <a href={contacts.email} className="btn btn-outline-dark btn-lg">
+            <a href={contacts.email} className="btn btn-outline-light btn-lg">
               Email
             </a>
             <a
               href={contacts.linkedin}
               target="_blank"
               rel="noreferrer"
-              className="btn btn-outline-dark btn-lg"
+              className="btn btn-outline-light btn-lg"
             >
               LinkedIn
             </a>
@@ -46,9 +49,17 @@ function Footer() {
               href={contacts.github}
               target="_blank"
               rel="noreferrer"
-              className="btn btn-outline-dark btn-lg"
+              className="btn btn-outline-light btn-lg"
             >
               Github
+            </a>
+            <a
+              href={contacts.resume}
+              target="_blank"
+              rel="noreferrer"
+              className="btn btn-outline-light btn-lg"
+            >
+              Resume
             </a>
           </div>
           <div className="col d-flex justify-content-center justify-content-md-end align-self-end">
@@ -79,7 +90,7 @@ function Footer() {
           <div className="col d-flex justify-content-center justify-content-md-end">
             <span>
               See the recent update on{" "}
-              <a href={contacts.github} target="_blank" rel="noreferrer">
+              <a href='https://github.com/devcarolinealmeida/portfolio-react-bootstrap' target="_blank" rel="noreferrer">
                 GitHub
               </a>
             </span>
