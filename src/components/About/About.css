@@ -2,17 +2,27 @@
     position: absolute;
     top: -1rem;
     right: 10vw;
-    width: 30vw;
-    height: 30vw;
+    width: 25vw;
+    height: 25vw;
     transition: var(--transition-card);
     margin-left: 1rem;
 }
+
+._about ._fotoWrap img {
+    width: clamp(14rem, 30vw, 25rem);
+    border-radius: .5rem;
+    justify-self: center;
+}
+
 @media (min-width:768px) {
     ._about .figSvg {
         top: -2rem;
         right: 14%;
         width: 12vw;
         height: 12vw;
+    }
+    ._about ._fotoWrap img {
+        justify-self: end;
     }
 }
 @media (min-width:1440px) {

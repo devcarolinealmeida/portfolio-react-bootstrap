@@ -221,14 +221,13 @@ export default function About() {
                 own applications.
               </p>
             </div>
-            <div className="col-12 col-md-6">
+            <div className="_fotoWrap col-12 col-md-6 d-grid">
               <img
                 src={carolinePhoto}
                 alt=""
                 style={{
                   width: "clamp(14rem, 30vw, 25rem)",
-                  borderRadius: ".5rem",
-                  float: "inline-end",
+                  borderRadius: ".5rem"
                 }}
               />
             </div>
