@@ -1,6 +1,6 @@
 /* mobile */
 .navMobile {
-    top: 4.1rem;
+   top: 0;
 }
     .navMobile a {
         font-size: 1.5rem;
@@ -16,21 +16,26 @@
         .nav-link:hover {
             color: var(--color-primary)!important;
         }
+        .hamburger-react {
+            position: fixed !important;
+            top: .5rem;
+            right: .5rem;
+            z-index: 1000;
+        }
 
 .navbar {
     padding-bottom: 0;
     padding-top: 0;
 }
 
-@media (max-width:990px) {
+@media (max-width:991px) {
     .navMobile {
         position: fixed;
         left: 0;
         right: 0;
-        padding: 3rem 1.5rem;
-        background: var(--darkGreen);
-        border-bottom: 1px solid white;
-        min-height: calc(100vh - 4.1rem);
+        padding: 6rem 1.5rem 3rem 1.5rem;
+        background: var( --darkGreen);
+        min-height: 100vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -38,6 +43,8 @@
     }
     .navbar-nav .nav-link:nth-child(3) {
         margin-top: 2rem;
+        font-size: 2rem;
+        padding: .5rem 1rem!important;
     }
 }
 
@@ -47,16 +54,15 @@
     padding-top: .5rem;
 }
 
-
-
 .navbar-nav .nav-link:nth-child(3) {
     @apply btn;
-    border: 1px solid var(--color-primary);
+    border: 2px solid var(--color-primary);
     color: var(--color-primary)!important;
     border-radius: 6.25rem;
     padding: 0 0.5em;
     display: inline-flex;
     align-items: center;
+    font-weight: 600;
 }
     .navbar-nav .nav-link:nth-child(3):hover {
         color: black !important;
@@ -74,11 +80,8 @@
 @media (min-width:768px) {
     .navbar>.container-lg {
         padding-top: 1rem;
+        padding-bottom: 1rem;
     }
-    .navMobile{
-        top: 4.6rem;
-    }
-
     .circleBefore {
         position: relative;
         padding-left: 2rem;
