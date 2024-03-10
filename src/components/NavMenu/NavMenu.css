@@ -1,23 +1,40 @@
 /* mobile */
-.nabMobile {
+.navMobile {
     top: 4.1rem;
 }
+    .navMobile a {
+        font-size: 1.5rem;
+        text-align: center;
+        padding-bottom: 1.5rem;
+        border-bottom: 1px solid white;
+        font-weight: 600;
+    }
+
+    .nav-link {
+        color: white!important;
+    }
+        .nav-link:hover {
+            color: var(--color-primary)!important;
+        }
+
 .navbar {
     padding-bottom: 0;
     padding-top: 0;
 }
 
 @media (max-width:990px) {
-    .nabMobile {
+    .navMobile {
         position: fixed;
         left: 0;
         right: 0;
-        padding: 1.5rem;
+        padding: 3rem 1.5rem;
         background: var(--darkGreen);
         border-bottom: 1px solid white;
-        min-height: 100vh;
+        min-height: calc(100vh - 4.1rem);
         display: flex;
-        align-items: self-start;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
     }
 }
 
@@ -27,9 +44,7 @@
     padding-top: .5rem;
 }
 
-.nav-link {
-    color: white!important;
-}
+
 
 .navbar-nav .nav-link:nth-child(3) {
     @apply btn;
@@ -39,10 +54,15 @@
     padding: 0 0.5em;
     display: inline-flex;
     align-items: center;
+    margin-top: 2rem;
 }
+    .navbar-nav .nav-link:nth-child(3):hover {
+        color: black !important;
+        background-color: var(--color-primary);
+    }
 
 @media (min-width:991px) {
-    .nabMobile {
+    .navMobile{
         display: none;
     }
     .hamburger-react {
@@ -53,7 +73,7 @@
     .navbar>.container-lg {
         padding-top: 1rem;
     }
-    .nabMobile {
+    .navMobile{
         top: 4.6rem;
     }
 

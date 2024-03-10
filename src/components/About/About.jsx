@@ -15,7 +15,7 @@ export default function About() {
   const transScroll = ' type: "inertia", velocity: 50' ;
 
   return (
-    <div className="bg-black position-relative" ref={ref}>
+    <div className="bg-black position-relative"id="about" ref={ref}>
       <motion.div
         ref={ref}
         className="_about position-relative d-flex align-items-center"
