@@ -33,7 +33,7 @@ function Footer() {
           </h4>
         </div>
         <div className="row justify-content-between gap-5">
-          <div className="col-md-8 d-flex flex-column  flex-md-row gap-4">
+          <div className="col-md-8 d-flex flex-column  flex-md-row gap-4 px-5 px-md-0">
             <a href={contacts.email} className="btn btn-outline-light btn-lg">
               Email
             </a>
