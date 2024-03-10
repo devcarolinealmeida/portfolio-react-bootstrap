@@ -3,7 +3,7 @@ import IconArrow from "../IconArrow/IconArrow";
 function Work(props) {
   return (
     <div href={props.link} target="_blank" rel="noreferrer">
-      <div className="list-item d-flex">
+      <div className="list-item d-flex flex-column flex-md-row ">
         <div className="workFigure"
        >
           <img 
