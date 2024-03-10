@@ -25,7 +25,7 @@ export default function About() {
           transition: transScroll,
         }}
       >
-        <div className="container p-4 p-md-5">
+        <div className="container p-4 py-5 p-md-5">
           <div className="row gap-4 gap-md-0 ">
             <div className="col-12 col-md-6">
               <h4
@@ -34,11 +34,17 @@ export default function About() {
                   fontWeight: "600",
                   lineHeight: "90%",
                   marginBottom: "3rem",
+                  zIndex:'2',
+                  position: 'relative'
+                  
                 }}
               >
                 <span className="d-flex align-items-center">
                   Get to
-                  <span className="figSvg">
+                </span>
+                <span>know me</span>
+              </h4>
+              <span className="figSvg z-0">
                     <motion.svg
                       style={{ 
                         rotate: rotateIcon, 
@@ -201,10 +207,7 @@ export default function About() {
                         </clipPath>
                       </defs>
                     </motion.svg>
-                  </span>
-                </span>
-                <span>know me</span>
-              </h4>
+              </span>
               <p
                 style={{
                   fontSize: "clamp(1.25rem, 1.1863rem + 0.2614vw, 1.5rem)",

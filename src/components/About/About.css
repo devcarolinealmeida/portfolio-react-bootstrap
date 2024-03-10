@@ -1,7 +1,18 @@
 ._about .figSvg {
-    width: 5.5rem;
-    height: 5.5rem;
+    position: absolute;
+    top: 2rem;
+    right: 10vw;
+    width: 30vw;
+    height: 30vw;
     transition: var(--transition-card);
     margin-left: 1rem;
+}
+@media (min-width:768px) {
+    ._about .figSvg {
+        right: 60vw;
+        top: 3rem;
+        width: 12vw;
+        height: 12vw;
+    }
 }
   
