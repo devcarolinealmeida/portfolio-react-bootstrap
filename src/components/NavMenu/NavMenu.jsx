@@ -9,7 +9,6 @@ function NavMenu() {
   const [isOpen, setOpen] = useState(false);
 
   const links = [
-    /* { url:'/', title: 'Home' }, */
     { url: "#works", title: "Works" },
     { url: "#about", title: "About" },
     { url: "#contacts", title: "Get in touch" },
@@ -25,16 +24,17 @@ function NavMenu() {
         paddingTop: "1rem",
       }}
     >
-      <Container>
-        <Navbar.Brand href="#home" className="fs-brand fw-bold">
-          &#123;
-          <span className="txt-primary"> Caroline Almeida</span> &#125;
-        </Navbar.Brand>
-        <Navbar.Text className="circleBefore text-white">
-          Front End Developer
-        </Navbar.Text>
+      <div className="container-md">
+        <div className="d-flex flex-column flex-md-row align-items-center ">
+          <Navbar href="#home" className="fs-brand fw-bold">
+            &#123;
+            <span className="txt-primary"> Caroline Almeida</span> &#125;
+          </Navbar>
+          <span className="circleBefore text-white">
+            Front End Developer
+          </span>
+        </div>
         <Hamburger
-          className={!isOpen ? "navbar-toggler collapsed" : "navbar-toggler"}
           toggled={isOpen}
           toggle={setOpen}
         />
@@ -42,7 +42,7 @@ function NavMenu() {
           id="basic-navbar-nav"
           className={
             isOpen
-              ? "navbar-collapse collapse show"
+              ? "nabMobile navbar-collapse collapse show"
               : "navbar-collapse collapse justify-content-end"
           }
         >
@@ -52,7 +52,7 @@ function NavMenu() {
             })}
           </Nav>
         </div>
-      </Container>
+      </div>
     </Navbar>
   );
 }
