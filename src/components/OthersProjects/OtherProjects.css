@@ -9,7 +9,7 @@
 
     .scrollWrap > div {
         display: flex;
-        gap: 1rem;
+        gap: 1.5rem;
     }
 
     .scrollWrap > div > * {
@@ -17,8 +17,8 @@
     }
 
     .scrollWrap > div > .cardProject {
-        width: 18rem;
-        min-height: 15rem;
+        width: 19rem;
+        min-height: 13rem;
         position: relative;
         padding: 2rem;
         border: 1px solid hsla(56, 94%, 94%, 0.6);
@@ -44,12 +44,9 @@
     }
 
 .scrollWrap > div > .cardProject .cardTop {
-    margin-bottom: 4rem;
+    margin-bottom: 3.5rem;
     transition: var(--transition-card);
 }
-    .scrollWrap > div > .cardProject .cardTop h4 {
-        transition: var(--transition-card);
-    }
 
 .scrollWrap > div > .cardProject .cardInfo .info {
     min-height: 10rem;
@@ -61,8 +58,9 @@
 
     .scrollWrap > div > .cardProject .cardInfo h4 {
         font-size: clamp(1.375rem, 1.2157rem + 0.6536vw, 2rem);
-        min-height: 6rem;
+        min-height: 5rem;
         font-weight: 600;
+        transition: var(--transition-card);
     }
 
 .scrollWrap > div > .cardProject .figSvg {
@@ -74,27 +72,6 @@
   .scrollWrap > div > .cardProject .figSvg svg {
         transition: var(--transition-card);
     }
-
-.scrollWrap > div > .cardProject:hover {
-    background-color: var(--darkGreen);
-    border: 1px solid var(--darkGreen);
-}
-.scrollWrap > div > .cardProject:hover .cardTop > .figSvg:first-child svg {
-    fill: var(--color-primary)
-}
-.scrollWrap > div > .cardProject:hover .cardInfo h4 {
-    color: var(--color-primary)
-}
-
-.cardProject:hover .figSvg {
-    color: var(--color-primary)
-} 
-.cardProject:hover svg path {
-    stroke: var(--color-primary);
-}
-.cardProject:hover .cardInfo .figSvg {
-    transform: translate3d(15px, -15px, 10px);
-}
 
 .tecnologies > span + span {
     position: relative;
@@ -112,3 +89,26 @@
         top: 25%;
         left: 0rem;
     }
+
+@media (min-width:991px) {
+    .scrollWrap > div > .cardProject:hover {
+        background-color: var(--darkGreen);
+        border: 1px solid var(--darkGreen);
+    }
+    .cardProject:hover .figSvg {
+        color: var(--color-primary)
+    } 
+    .cardProject:hover svg path {
+        stroke: var(--color-primary);
+    }
+    .cardProject:hover .cardInfo .figSvg {
+        transform: translate3d(15px, -15px, 10px);
+    }
+    .scrollWrap > div > .cardProject:hover .cardTop > .figSvg:first-child svg {
+        fill: var(--color-primary)
+    }
+    .scrollWrap > div > .cardProject:hover .cardInfo h4 {
+        color: var(--color-primary)
+    }
+    
+}
