@@ -21,12 +21,20 @@
   height: 18rem;
   background-color: transparent;
   transition: var(--transition-list);
-  opacity: 0;
+  opacity: 1;
 }
 
-.list-item:hover .workFigure {
+@media (min-width:991px) {
+  .list-item .workFigure {
+    opacity: 0;
+  }
+  .list-item:hover .workFigure {
+    opacity: 1;
+  }
+}
+
+.list-item .workFigure {
   background-color: var(--bg-work-figure);
-  opacity: 1;
 }
 
 .list-item .workImg {
