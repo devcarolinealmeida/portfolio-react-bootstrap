@@ -25,8 +25,8 @@ export default function About() {
           transition: transScroll,
         }}
       >
-        <div className="container p-5">
-          <div className="row gap-sm-4 gap-lg-0 ">
+        <div className="container p-4 p-md-5">
+          <div className="row gap-4 gap-md-0 ">
             <div className="col-12 col-md-6">
               <h4
                 style={{

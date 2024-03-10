@@ -24,7 +24,7 @@ function Footer() {
           <h4
             className="text-center text-md-start mb-5"
             style={{
-              fontSize: "clamp(1.25rem, 0.2941rem + 3.9216vw, 5rem)",
+              fontSize: "clamp(3.25rem, 2.8039rem + 1.8301vw, 5rem)",
               fontWeight: "600",
               lineHeight:'100%'
             }}
