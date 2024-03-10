@@ -1,6 +1,5 @@
 import React, { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
-import IconWheel from "../IconWheel/IconWheel";
 import carolinePhoto from "../../assets/caroline-almeida-dev.jpg";
 import "./About.css";
 
@@ -15,7 +14,7 @@ export default function About() {
   const transScroll = ' type: "inertia", velocity: 50' ;
 
   return (
-    <div className="bg-black position-relative"id="about" ref={ref}>
+    <div className="bg-black position-relative py-5" id="about" ref={ref}>
       <motion.div
         ref={ref}
         className="_about position-relative d-flex align-items-center"
@@ -26,8 +25,8 @@ export default function About() {
           transition: transScroll,
         }}
       >
-        <div className="container">
-          <div className="row">
+        <div className="container p-5">
+          <div className="row gap-sm-4 gap-lg-0 ">
             <div className="col-12 col-md-6">
               <h4
                 style={{
