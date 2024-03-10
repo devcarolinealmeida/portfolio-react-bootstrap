@@ -1,6 +1,6 @@
 ._about .figSvg {
     position: absolute;
-    top: 2rem;
+    top: -1rem;
     right: 10vw;
     width: 30vw;
     height: 30vw;
@@ -9,10 +9,16 @@
 }
 @media (min-width:768px) {
     ._about .figSvg {
-        right: 60vw;
-        top: 3rem;
+        top: -2rem;
+        right: 14%;
         width: 12vw;
         height: 12vw;
+    }
+}
+@media (min-width:1440px) {
+    ._about .figSvg {
+        top: -7vh;
+        right: 30%;
     }
 }
   
