@@ -1,10 +1,17 @@
 /* mobile */
+.nabMobile {
+    top: 4.1rem;
+}
+.navbar {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
 @media (max-width:990px) {
     .nabMobile {
         position: fixed;
         left: 0;
         right: 0;
-        top: 5rem;
         padding: 1.5rem;
         background: var(--darkGreen);
         border-bottom: 1px solid white;
@@ -14,9 +21,10 @@
     }
 }
 
-.navbar>.container-md {
+.navbar>.container-lg {
     border-bottom: 0.5px solid hsla(56, 94%, 94%, 1);
-    padding-bottom: 1rem;
+    padding-bottom: .5rem;
+    padding-top: .5rem;
 }
 
 .nav-link {
@@ -42,6 +50,13 @@
     }
 }
 @media (min-width:768px) {
+    .navbar>.container-lg {
+        padding-top: 1rem;
+    }
+    .nabMobile {
+        top: 4.6rem;
+    }
+
     .circleBefore {
         position: relative;
         padding-left: 2rem;

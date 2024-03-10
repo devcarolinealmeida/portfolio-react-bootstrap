@@ -1,4 +1,3 @@
-import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import "./NavMenu.css";
@@ -21,23 +20,19 @@ function NavMenu() {
       sticky="top"
       style={{
         backgroundColor: "black",
-        paddingTop: "1rem",
       }}
     >
-      <div className="container-md">
-        <div className="d-flex flex-column flex-md-row align-items-center ">
+      <div className="container-lg">
+        <div className="d-flex flex-column flex-md-row align-items-md-center">
           <Navbar href="#home" className="fs-brand fw-bold">
             &#123;
             <span className="txt-primary"> Caroline Almeida</span> &#125;
           </Navbar>
-          <span className="circleBefore text-white">
+          <span className="circleBefore fs-sm text-white">
             Front End Developer
           </span>
         </div>
-        <Hamburger
-          toggled={isOpen}
-          toggle={setOpen}
-        />
+        <Hamburger toggled={isOpen} toggle={setOpen} />
         <div
           id="basic-navbar-nav"
           className={
