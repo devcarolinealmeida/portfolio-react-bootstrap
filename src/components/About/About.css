@@ -1,9 +1,9 @@
 ._about .figSvg {
     position: absolute;
     top: -1rem;
-    right: 10vw;
-    width: 25vw;
-    height: 25vw;
+    right: 0;
+    width: max(7rem, 12vw);
+    height: max(7rem, 12vw);
     transition: var(--transition-card);
     margin-left: 1rem;
 }
@@ -17,9 +17,6 @@
 @media (min-width:768px) {
     ._about .figSvg {
         top: -2rem;
-        right: 14%;
-        width: 12vw;
-        height: 12vw;
     }
     ._about ._fotoWrap img {
         justify-self: end;
@@ -28,7 +25,6 @@
 @media (min-width:1440px) {
     ._about .figSvg {
         top: -7vh;
-        right: 30%;
     }
 }
   
