@@ -1,10 +1,7 @@
-import  museuScreen  from '../assets/museoGif.gif';
-import assistScreen from '../assets/assist-screen.png';
-import aisScreen from '../assets/aisFvg-screen.png';
-import rockPaperScissorsScreen from '../assets/rock-paper-scissors-screen.png';
-import fitClubScreen from '../assets/fit-club-screen.png';
-import taskListScreen from '../assets/task-list-screen.png';
-import textSpeechScreen from '../assets/textSpeech-screen.png';
+import museuScreen  from '../assets/museoRissorgimentoScreen.gif';
+import isiScreen from '../assets/isiScreen.gif'
+import assistScreen from '../assets/assistScreen.gif';
+import aisScreen from '../assets/aisScreen.gif';
 
 export const worksData = [
     {
@@ -20,7 +17,7 @@ export const worksData = [
         name:'ISI Foundation - Pioneering Data-Driven Science for Social Impact',
         category: 'Work',
         date: 'mar.2024',
-        img: {},
+        img: isiScreen,
         colorBg: 'hsla(0, 0%, 0%, 1)',
     },
     {

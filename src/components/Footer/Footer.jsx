@@ -19,21 +19,23 @@ function Footer() {
       className="footer bg-black position-relative"
       id="contacts"
     >
-      <div className="container-lg">
+      <div className="container">
         <div className="row">
-          <h4
-            className="text-center text-md-start mb-5"
-            style={{
-              fontSize: "clamp(3.25rem, 2.8039rem + 1.8301vw, 5rem)",
-              fontWeight: "600",
-              lineHeight:'100%'
-            }}
-          >
-            Let's build<br></br>together
-          </h4>
+          <div className="col">
+            <h4
+              className="text-center text-md-start mb-5"
+              style={{
+                fontSize: "clamp(3.25rem, 2.8039rem + 1.8301vw, 5rem)",
+                fontWeight: "600",
+                lineHeight:'100%'
+              }}
+            >
+              Let's build<br></br>together
+            </h4>
+          </div>
         </div>
         <div className="row justify-content-between gap-5">
-          <div className="col-md-8 d-flex flex-column  flex-md-row gap-4 px-5 px-md-0">
+          <div className="col-12 col-lg-8 d-flex flex-column  flex-md-row gap-4 px-5 px-md-0">
             <a href={contacts.email} className="btn btn-outline-light btn-lg">
               Email
             </a>
@@ -62,7 +64,7 @@ function Footer() {
               Resume
             </a>
           </div>
-          <div className="col d-flex justify-content-center justify-content-md-end align-self-end">
+          <div className="col-12 col-lg-2 d-flex justify-content-center justify-content-md-end align-self-end">
             <span
               className="d-block"
               style={{ cursor: "pointer" }}
