@@ -15,7 +15,7 @@ function OtherProjects() {
                 fontSize: "clamp(1.875rem, 1.0784rem + 3.268vw, 5rem)",
                 fontWeight: "600",
                 marginBottom: "6rem",
-                lineHeight: "95%",
+                lineHeight: "90%",
               }}
             >
               Other noteworthy <br></br>projects

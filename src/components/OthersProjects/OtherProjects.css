@@ -54,6 +54,7 @@
     .scrollWrap > div > .cardProject .cardInfo .info a {
         color: var(--bs-body-color);
         text-decoration: none;
+        line-height: 110%;
     }
 
     .scrollWrap > div > .cardProject .cardInfo h4 {
@@ -61,6 +62,7 @@
         min-height: 5rem;
         font-weight: 600;
         transition: var(--transition-card);
+        line-height: 105%;
     }
 
 .scrollWrap > div > .cardProject .figSvg {

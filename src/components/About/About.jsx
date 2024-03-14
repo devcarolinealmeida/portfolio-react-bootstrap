@@ -32,7 +32,7 @@ export default function About() {
                 style={{
                   fontSize: "clamp(2rem, 0.598rem + 5.7516vw, 7.5rem)",
                   fontWeight: "600",
-                  lineHeight: "90%",
+                  lineHeight: "80%",
                   marginBottom: "3rem",
                   position: "relative",
                 }}
@@ -209,6 +209,7 @@ export default function About() {
               <p
                 style={{
                   fontSize: "clamp(1rem, 0.9082rem + 0.3765vw, 1.36rem)",
+                  lineHeight:'140%'
                 }}
               >
                 Oi, my name is Caroline! <br></br>

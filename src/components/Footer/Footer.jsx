@@ -27,7 +27,7 @@ function Footer() {
               style={{
                 fontSize: "clamp(3.25rem, 2.8039rem + 1.8301vw, 5rem)",
                 fontWeight: "600",
-                lineHeight:'100%'
+                lineHeight:'85%'
               }}
             >
               Let's build<br></br>together
@@ -36,14 +36,14 @@ function Footer() {
         </div>
         <div className="row justify-content-between gap-5">
           <div className="col-12 col-lg-8 d-flex flex-column  flex-md-row gap-4 px-5 px-md-0">
-            <a href={contacts.email} className="btn btn-outline-light btn-lg">
+            <a href={contacts.email} className="btn btn-lg">
               Email
             </a>
             <a
               href={contacts.linkedin}
               target="_blank"
               rel="noreferrer"
-              className="btn btn-outline-light btn-lg"
+              className="btn btn-lg"
             >
               LinkedIn
             </a>
@@ -51,7 +51,7 @@ function Footer() {
               href={contacts.github}
               target="_blank"
               rel="noreferrer"
-              className="btn btn-outline-light btn-lg"
+              className="btn btn-lg"
             >
               Github
             </a>
@@ -59,7 +59,7 @@ function Footer() {
               href={contacts.resume}
               target="_blank"
               rel="noreferrer"
-              className="btn btn-outline-light btn-lg"
+              className="btn btn-lg"
             >
               Resume
             </a>

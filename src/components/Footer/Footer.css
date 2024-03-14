@@ -19,4 +19,9 @@
     font-family: var(--bs-body-font-family);
     border-radius: 6.25rem;
     padding: .4em 2.5em;
+    border-color: var(--bs-body-color);
 }
+    .btn:hover {
+       background-color: var(--bs-body-color);
+       color: black;
+    }
