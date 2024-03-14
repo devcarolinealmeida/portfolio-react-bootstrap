@@ -24,7 +24,7 @@ export default function CardProject(props) {
       <div className="cardInfo d-flex flex-column  justify-content-between">
         <h4>{props.name}</h4>
         <div className="info d-flex flex-column justify-content-between gap-4">
-          <a href={props.gitHub} className="stretched-link">
+          <a href={props.gitHub} target="_blank" rel="noreferrer" className="stretched-link">
             {props.description}
           </a>
           <span className="tecnologies">
