@@ -4,7 +4,7 @@ function Work(props) {
   return (
     <div href={props.link} target="_blank" rel="noreferrer">
       <div className="list-item d-flex flex-column flex-md-row ">
-        <div className="workFigure"
+        <div className="workFigure" style={{backgroundColor: props.colorBg}}
        >
           <img 
           className="workImg"
