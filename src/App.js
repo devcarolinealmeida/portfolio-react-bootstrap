@@ -8,12 +8,7 @@ function App() {
   return (
     <div className="App">
       <Initial/>
-      {/* <NavMenu/>
-      <Works/> */}
       <ParallaxWrap/>
-  {/*     <OtherProjects/>
-      <About/>
-      <Footer/> */}
     </div>
   );
 }
