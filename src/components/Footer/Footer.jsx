@@ -6,7 +6,7 @@ function Footer() {
     email: "mailto:carolineitalia85@gmail.com",
     linkedin: "https://www.linkedin.com/in/devcaroline/",
     github: "https://github.com/devcarolinealmeida",
-    annaBigaran: "https://annabigaran.com/",
+    annaBigaran: "https://anna-bigaran-portfolio.webflow.io/",
     resume: 'https://read.cv/carolinealmeida'
   };
 
