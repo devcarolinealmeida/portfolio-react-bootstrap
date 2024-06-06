@@ -3,7 +3,7 @@ import Navbar from "react-bootstrap/Navbar";
 import "./NavMenu.css";
 import Hamburger from "hamburger-react";
 import { useState, useRef } from "react";
-import { AnimatePresence, easeInOut, motion } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 
 function NavMenu() {
   const [isOpen, setOpen] = useState(false);
