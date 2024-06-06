@@ -23,8 +23,8 @@ export default function Initial() {
         initial={{ opacity: 0, transform: "translateY(-100%)" }}
         animate={{ opacity: 1, transform: "translateY(0)" }}
         transition={{ duration: 0.2 }}>
-          <div className="col col-lg-3 fw-bold fs-brand">
-            &#123; <span className="txt-primary">Caroline Almeida</span> &#125;
+          <div className="col col-lg-3">
+            &#123; <h1 className="fs-brand fw-bold txt-primary d-inline">Caroline Almeida</h1> &#125;
           </div>
           <div className="col col-lg-7 d-flex flex-column flex-md-row justify-content-md-between align-items-end fs-sm">
             <span className="d-flex gap-2">
@@ -43,7 +43,7 @@ export default function Initial() {
         transition={{ duration: 0.7, delay:0.2 }}
         >
           <div className="col">
-            <h1 className="fs-h1 lh-1">
+            <h2 className="fs-h1 lh-1">
               Front End
               <div className="d-flex flex-column flex-md-row gap-0 gap-md-4 lh-80">
                 Developer
@@ -54,7 +54,7 @@ export default function Initial() {
                   />
                 </div>
               </div>
-            </h1>
+            </h2>
           </div>
         </motion.div>
         <motion.div 
@@ -64,16 +64,17 @@ export default function Initial() {
         transition={{ duration: 0.7, delay:0.2 }}
         >
           <div className="col-lg-6 align-self-end">
-            <p
+            <h3
               className="lh-13"
               style={{
                 fontSize: "clamp(1.375rem, 1.152rem + 0.915vw, 2.25rem)",
                 lineHeight: "130%",
+                fontWeight: '100'
               }}
             >
               I'm Caroline, Front End Developer dedicated to crafting immersive
               digital experiences. Currently living in Turin, Italy.
-            </p>
+            </h3>
           </div>
         </motion.div>
         <div className="row">
