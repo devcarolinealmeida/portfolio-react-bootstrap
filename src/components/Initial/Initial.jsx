@@ -46,7 +46,7 @@ export default function Initial() {
             <h2 className="fs-h1 mb-0" style={{lineHeight: '75%'}}>Front End</h2>
             <div className="d-flex flex-column flex-md-row gap-0 gap-md-4 lh-80">
               <h3 className="fs-h1 lh-1">Developer</h3>
-              <div className="mt-2">
+              <div className="mt-3">
                 <Typed
                   fs={"fs-1"}
                   styles={{ color: "var(--color-primary)" }}

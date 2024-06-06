@@ -11,9 +11,9 @@ function Work(props) {
           src={props.img} alt="" />
         </div>
         <div className="workInfo d-flex flex-column justify-content-between">
-          <div className="_title">
+          <h4 className="_title">
             <a href={props.link} target="_blank" rel="noreferrer" className="stretched-link">{props.title}</a>
-          </div>
+          </h4>
           <div className="d-flex justify-content-between align-items-end w-100">
             <span>{props.date}</span>
             <div className="_cta">
