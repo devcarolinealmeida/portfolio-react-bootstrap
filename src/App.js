@@ -11,8 +11,8 @@ function App() {
   return (
     <HelmetProvider>
      <MetaTags
-        title="Caroline Almeida"
-        description="Fron-end developer | React | JavaScript"
+        title="Caroline Almeida Web Developer"
+        description="Front-end developer | React | NextJS | Framer motion | GSAP |Tailwind | Bootstrap | JavaScript"
         image={Logo}
         name="Caroline Almeida"
       />
