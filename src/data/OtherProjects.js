@@ -15,6 +15,13 @@ export const otherProjects = [
         tecnologie: ['CSS3', 'JavaScript']
     },
     {
+        link: 'https://dev-caroline-text-to-speech.netlify.app/',
+        gitHub: 'https://github.com/devcarolinealmeida/text-to-speech',
+        name:'Text to Speech',
+        description: 'An application to assist people with language difficulties in expressing themselves.',
+        tecnologie: ['JS','Web Speech API' ]
+    },
+    {
         link: 'https://fit-club-starter-pi.vercel.app/',
         gitHub: 'https://github.com/devcarolinealmeida/FitClub-Starter',
         name:'Fit Club React',
@@ -27,12 +34,5 @@ export const otherProjects = [
         name:'Task list React',
         description: 'Mark any task as completed or return as incomplete; Delete any task, using the mouse or keyboard.',
         tecnologie: ['CSS3', 'React']
-    },
-    {
-        link: 'https://dev-caroline-text-to-speech.netlify.app/',
-        gitHub: 'https://github.com/devcarolinealmeida/text-to-speech',
-        name:'Text to Speech',
-        description: 'An application to assist people with language difficulties in expressing themselves.',
-        tecnologie: ['JS','Web Speech API' ]
     },
 ]
