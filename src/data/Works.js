@@ -20,7 +20,7 @@ export const worksData = [
         link: 'https://streeen.org/',
         name:'Streeen - Discover a unique multi-streaming system, with hundreds of carefully selected films including feature films, shorts and documentaries',
         category: 'Work',
-        date: 'dic.2024',
+        date: 'dec.2024',
         img: StreeenScreen,
          colorBg: 'hsla(56, 94%, 94%, 1)'
     },
@@ -36,7 +36,7 @@ export const worksData = [
         link: 'https://manon.teatroregio.torino.it/',
         name:'Teatro Regio - Landing Page to present Manon Manon Manon in Italy',
         category: 'Work',
-        date: 'april.2024',
+        date: 'apr.2024',
         img: manonScreen,
         colorBg: 'hsla(56, 94%, 94%, 1)'
     },
