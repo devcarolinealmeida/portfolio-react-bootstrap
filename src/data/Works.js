@@ -4,8 +4,17 @@ import assistScreen from '../assets/assistScreen.gif';
 import aisScreen from '../assets/aisScreen.gif';
 import manonScreen from '../assets/manonScreen.gif';
 import p3qScreen from '../assets/p3qScreen.gif';
+import boraProRole from '../assets/boraProRoleScreen.gif';
 
 export const worksData = [
+    {
+        link: 'https://bora-pro-role.vercel.app/',
+        name:'Bora pro Rolê - Join us as we explore the wonders of Italy and share tips, stories, and curiosities that make this place truly unique!',
+        category: 'Work',
+        date: 'jan.2025',
+        img: boraProRole,
+        colorBg: 'hsla(56, 94%, 94%, 1)'
+    },
     {
         link: 'https://www.p3q.it/',
         name:'Tre Querce - un’avventura nel Parco Naturale della Collina di Superga',

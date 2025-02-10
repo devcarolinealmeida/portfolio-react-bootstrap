@@ -80,7 +80,7 @@
 @media (min-width:991px) {
   .list-item .workInfo {
       padding: 3rem;
-      flex-grow: 1;
+      flex: 1 1 50%;
   }
   .list-item .workFigure {
     opacity: 0;
