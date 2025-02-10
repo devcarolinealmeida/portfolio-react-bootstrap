@@ -5,6 +5,7 @@ import aisScreen from '../assets/aisScreen.gif';
 import manonScreen from '../assets/manonScreen.gif';
 import p3qScreen from '../assets/p3qScreen.gif';
 import boraProRole from '../assets/boraProRoleScreen.gif';
+import StreeenScreen from '../assets/streeenScreen.gif';
 
 export const worksData = [
     {
@@ -16,8 +17,16 @@ export const worksData = [
         colorBg: 'hsla(56, 94%, 94%, 1)'
     },
     {
+        link: 'https://streeen.org/',
+        name:'Streeen - Discover a unique multi-streaming system, with hundreds of carefully selected films including feature films, shorts and documentaries',
+        category: 'Work',
+        date: 'dic.2024',
+        img: StreeenScreen,
+         colorBg: 'hsla(56, 94%, 94%, 1)'
+    },
+    {
         link: 'https://www.p3q.it/',
-        name:'Tre Querce - un’avventura nel Parco Naturale della Collina di Superga',
+        name:'Tre Querce - an adventure in the Collina di Superga Natural Park',
         category: 'Work',
         date: 'may.2024',
         img: p3qScreen,
