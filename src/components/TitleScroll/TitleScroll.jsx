@@ -6,7 +6,7 @@ function TitleScroll(props) {
 
   return (
     <div
-      className="container-fluid d-flex pb-5 overflow-auto"
+      className="_bar-wrap container-fluid d-flex pb-5 overflow-auto"
       style={{ paddingTop: "6rem" }}
     >
       <motion.div

@@ -63,3 +63,27 @@
   font-weight: 600;
   font-style: normal;
 }
+
+/* Scroll bar --------------- */
+
+/* Works on Firefox */
+._bar-wrap {
+	scrollbar-width: none;
+	scrollbar-color: black;
+}
+
+/* Works on Chrome, Edge, and Safari */
+::-webkit-scrollbar {
+	width: .3em;
+	height: .3em;
+}
+
+::-webkit-scrollbar-track {
+	background: transparent;
+	border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: transparent;
+	border-radius: 20px;
+}
