@@ -17,7 +17,7 @@
     }
 
     .scrollWrap > div > .cardProject {
-        width: 21rem;
+        width: min(80vw, 21rem);
         min-height: 13rem;
         position: relative;
         padding: 2rem;
