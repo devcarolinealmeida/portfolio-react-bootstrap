@@ -10,7 +10,7 @@ function Works() {
         <div id="works" className="_works position-relative bg-black overflow-auto">
             <TitleScroll title='Works'/>
             <div className="works-container container bg-black">
-                <div className="row">
+                <div className="row-cols-1">
                     {worksData.map((work)=> {
                         return (
                             <Work link={work.link} title={work.name} date={work.date} img={work.img} colorBg={work.colorBg}/>
