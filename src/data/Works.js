@@ -64,36 +64,4 @@ export const worksData = [
         img: assistScreen,
         colorBg: 'var(--color-primary)'
     },
-    {
-        link: 'https://aisfvg.it/',
-        name:'AIS FVG - Revealing the World of Wine with Sommelier Courses',
-        category: 'Work',
-        date: 'apr.2023',
-        img: aisScreen,
-        colorBg: 'hsla(56, 94%, 94%, 1)'
-    },
-    /* {
-        link: 'https://rock-paper-scissors-swart-gamma.vercel.app/',
-        name:'Rock Paper Scissors Game',
-        category: 'Playground',
-        img: rockPaperScissorsScreen,
-    },
-    {
-        link: 'https://fit-club-starter-pi.vercel.app/',
-        name:'Fit Club React',
-        category: 'Playground',
-        img: fitClubScreen,
-    },
-    {
-        link: 'https://task-list-react-two.vercel.app/',
-        name:'Task list React',
-        category: 'Playground',
-        img: taskListScreen,
-    },
-    {
-        link: 'https://dev-caroline-text-to-speech.netlify.app/',
-        name:'Text to Speech',
-        category: 'Playground',
-        img: textSpeechScreen,
-    }, */
 ]
