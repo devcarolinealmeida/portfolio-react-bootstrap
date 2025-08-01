@@ -40,28 +40,28 @@ export const worksData = [
         img: manonScreen,
         colorBg: 'hsla(56, 94%, 94%, 1)'
     },
-    {
+/*     {
         link: 'https://isi.it/en/home',
         name:'ISI Foundation - Pioneering Data-Driven Science for Social Impact',
         category: 'Work',
         date: 'mar.2024',
         img: isiScreen,
         colorBg: 'var(--color-secondary)',
-    },
-    {
+    }, */
+/*     {
         link: 'https://www.museorisorgimentotorino.it/',
         name:'Museo Risorgimento - Gateway to History with a new Landing Page',
         category: 'Work',
         date: 'jan.2024',
         img: museuScreen,
         colorBg: 'hsla(0, 0, 0, 1)'
-    },
-    {
+    }, */
+/*     {
         link: 'https://assist-si.com/',
         name:'Assist - Streamlining Credit Collection with Appointment Booking',
         category: 'Work',
         date: 'nov.2023',
         img: assistScreen,
         colorBg: 'var(--color-primary)'
-    },
+    }, */
 ]
